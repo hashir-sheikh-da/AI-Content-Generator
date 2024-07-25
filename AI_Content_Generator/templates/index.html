@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Content Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Content Generator</h1>
+        </div>
+        
+        <form action="/generate" method="post">
+            <label for="task">Choose Task:</label>
+            <select name="task" id="task">
+                <option value="generate">Generate</option>
+                <option value="summarize">Summarize</option>
+                <option value="translate">Translate</option>
+            </select>
+            
+            <label for="text">Enter your text:</label>
+            <textarea id="text" name="text" rows="6" placeholder="Type your text here..."></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        {% if result %}
+            <div class="result">
+                <h2>Generated Content:</h2>
+                <div>{{ result|safe }}</div>
+            </div>
+        {% endif %}
+    </div>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>

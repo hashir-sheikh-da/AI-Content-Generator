@@ -108,7 +108,7 @@ The in-class assignment involved creating a web application where users can inpu
 - Backend: Flask-based backend to handle user requests and API calls.
 - Frontend: HTML/CSS for layout and design, JavaScript for theme toggling.
 
-![Screenshot]([https://github.com/hashir-sheikh-da/Preamble_PyTorch_048/blob/main/Data_PowerBI_Assets/dashboard_world_electricity_analysis.png](https://github.com/hashir-sheikh-da/GENAI-B38/blob/main/S1D2_Assignment_Screenshot/S1D2_In_Class_Assignment.png))
+![Screenshot](https://github.com/hashir-sheikh-da/GENAI-B38/blob/main/S1D2_Assignment_Screenshot/S1D2_In_Class_Assignment.png)
 
 ### 4. Take-Home Assignment
 #### Overview
@@ -124,7 +124,7 @@ The take-home assignment expanded the application to include additional function
 - Enhanced Interface: Added functionality for selecting the type of text processing task.
 - Improved User Experience: Seamless transitions and user-friendly interface.
 
-![Screenshot]([https://github.com/hashir-sheikh-da/Preamble_PyTorch_048/blob/main/Data_PowerBI_Assets/dashboard_world_electricity_analysis.png](https://github.com/hashir-sheikh-da/GENAI-B38/blob/main/S1D2_Assignment_Screenshot/S1D2_Take_Home_Assignment.png))
+![Screenshot](https://github.com/hashir-sheikh-da/GENAI-B38/blob/main/S1D2_Assignment_Screenshot/S1D2_Take_Home_Assignment.png)
 
 ### 5. Conclusion
 This project provided an excellent opportunity to learn and implement AI-based text-processing applications. By completing these assignments, I have gained valuable skills in web development, API integration, and using AI models for practical applications. The in-class assignment laid the foundation, while the take-home assignment allowed for deeper exploration and enhancement of the initial concept.

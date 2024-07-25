@@ -34,7 +34,7 @@ The primary objective of this project was to gain hands-on experience in buildin
     5. Conclusion
 
 ### 1. Introduction
-This project comprises two assignments, each designed to leverage the capabilities of Google's Gemini AI for various text processing tasks. The first assignment was completed in-class, focusing on building a basic web app for text and Shayari generation. The second, a take-home assignment, extended the functionality to include text summarization and translation.
+This project comprises two assignments, each designed to leverage the capabilities of Google's Gemini AI for various text-processing tasks. The first assignment was completed in class, focusing on building a basic web app for text and Shayari generation. The second, a take-home assignment, extended the functionality to include text summarization and translation.
     
 ### 2. Getting Started and Running the Application
 #### Prerequisites
@@ -108,11 +108,11 @@ The in-class assignment involved creating a web application where users can inpu
 - Backend: Flask-based backend to handle user requests and API calls.
 - Frontend: HTML/CSS for layout and design, JavaScript for theme toggling.
 
-[Screenshot](https://github.com/hashir-sheikh-da/Preamble_PyTorch_048/blob/main/Data_PowerBI_Assets/dashboard_world_electricity_analysis.png)
+![Screenshot]([https://github.com/hashir-sheikh-da/Preamble_PyTorch_048/blob/main/Data_PowerBI_Assets/dashboard_world_electricity_analysis.png](https://github.com/hashir-sheikh-da/GENAI-B38/blob/main/S1D2_Assignment_Screenshot/S1D2_In_Class_Assignment.png))
 
 ### 4. Take-Home Assignment
 #### Overview
-The take-home assignment expanded the application to include additional functionalities like summarization and translation. This assignment aimed to create a more versatile tool that could assist with various text processing tasks.
+The take-home assignment expanded the application to include additional functionalities like summarization and translation. This assignment aimed to create a more versatile tool that could assist with various text-processing tasks.
 
 #### Features
 - ✍️ Text Generation: Generate content based on a given prompt.
@@ -124,10 +124,10 @@ The take-home assignment expanded the application to include additional function
 - Enhanced Interface: Added functionality for selecting the type of text processing task.
 - Improved User Experience: Seamless transitions and user-friendly interface.
 
-[Screenshot](https://github.com/hashir-sheikh-da/Preamble_PyTorch_048/blob/main/Data_PowerBI_Assets/dashboard_world_electricity_analysis.png)
+![Screenshot]([https://github.com/hashir-sheikh-da/Preamble_PyTorch_048/blob/main/Data_PowerBI_Assets/dashboard_world_electricity_analysis.png](https://github.com/hashir-sheikh-da/GENAI-B38/blob/main/S1D2_Assignment_Screenshot/S1D2_Take_Home_Assignment.png))
 
 ### 5. Conclusion
-This project provided an excellent opportunity to learn and implement AI-based text processing applications. By completing these assignments, I have gained valuable skills in web development, API integration, and using AI models for practical applications. The in-class assignment laid the foundation, while the take-home assignment allowed for deeper exploration and enhancement of the initial concept.
+This project provided an excellent opportunity to learn and implement AI-based text-processing applications. By completing these assignments, I have gained valuable skills in web development, API integration, and using AI models for practical applications. The in-class assignment laid the foundation, while the take-home assignment allowed for deeper exploration and enhancement of the initial concept.
 
 ### 📁 Repository Structure
 ```bash
@@ -138,13 +138,13 @@ This project provided an excellent opportunity to learn and implement AI-based t
 │   │   └── index.html
 │   ├── static
 │   │   └── styles.css
-│   │   └── script.js
 ├── Take-Home_Assignment
 │   ├── app.py
 │   ├── templates
 │   │   └── index.html
 │   ├── static
 │   │   └── styles.css
+│   │   └── script.js
 ├── README.md
 
 ```

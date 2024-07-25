@@ -79,7 +79,7 @@ pip install -q -U google-generativeai
 - markdown2
 ```bash
 
-pip install -q -U markdown2
+pip install markdown2
 
 ```
 
@@ -93,7 +93,7 @@ pip install -q -U markdown2
 python app.py
 
 ```
-- Open your web browser and go to http://127.0.0.1:5000/ to use the application.
+- Open your web browser and go to `http://127.0.0.1:5000/` to use the application.
 
 ### 3. In-Class Assignment
 #### Overview

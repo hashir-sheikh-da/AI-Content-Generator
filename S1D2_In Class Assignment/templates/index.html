@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Content Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>AI Content Generator</h1>
+            <label class="switch">
+                <input type="checkbox" id="mode-switch">
+                <span class="slider round"></span>
+            </label>
+        </header>
+        <form method="POST" action="/generate">
+            <label for="task">Select Task:</label>
+            <select name="task" id="task">
+                <option value="generate">Text Generator</option>
+                <option value="shayari">Shayari Generator</option>
+            </select>
+            
+            <label for="text">Enter Prompt:</label>
+            <textarea name="text" id="text" rows="4" required></textarea>
+            
+            <button type="submit">Generate</button>
+        </form>
+        {% if result %}
+        <div class="result">
+            <h2>Response:</h2>
+            <div>{{ result|safe }}</div>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const modeSwitch = document.getElementById('mode-switch');
+
+            // Check localStorage for theme preference and apply it
+            if (localStorage.getItem('theme') === 'dark') {
+                document.body.classList.add('dark-mode');
+                modeSwitch.checked = true;
+            }
+
+            modeSwitch.addEventListener('change', function () {
+                if (this.checked) {
+                    document.body.classList.add('dark-mode');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    document.body.classList.remove('dark-mode');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
